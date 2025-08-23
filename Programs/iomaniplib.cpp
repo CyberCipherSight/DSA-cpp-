@@ -17,6 +17,7 @@ int main() {
     float f;
     double d;
     
+    cout<<"Enter some values : ";
     cin >> i >> l >> c >> f >> d;
     
     cout << i << endl;
@@ -24,6 +25,7 @@ int main() {
     cout << c << endl;
     cout << fixed << setprecision(3) << f << endl;
     cout << fixed << setprecision(9) << d << endl;
+    
     
     return 0;
 }
