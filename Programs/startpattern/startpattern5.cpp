@@ -7,19 +7,23 @@ int main(){
     cout<<"Enter a number : ";
     cin>>n;
 
-    for(int row = 1; row<n; row++){
+    for(int row =1; row<=n; row++){
 
-        for(int i = n-row; i>0 ; i--){
-
+        for(int i=n-row; i>0; i--){
             cout<<" ";
-        }
 
-        for(int star = 1; star<=row; star++){
+        }
+        
+        for(int j=1;j<=2*row-1; j++){
+
             cout<<"*";
         }
 
         cout<<endl;
+
+
+
     }
 
-return 0;
+    return 0;
 }

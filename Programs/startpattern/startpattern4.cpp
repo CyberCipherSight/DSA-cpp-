@@ -3,23 +3,25 @@ using namespace std;
 
 int main(){
 
-    int n;
+  int n;
     cout<<"Enter a number : ";
     cin>>n;
 
-    for(int row = 1; row<n; row++){
+    for(int row =1; row<=n; row++){
 
-        for(int i = n-row; i>0 ; i--){
-
+        for(int i=n-row; i>0; i--){
             cout<<" ";
-        }
 
-        for(int star = 1; star<=row; star++){
+        }
+        
+        for(int j=1;j<=row; j++){
+
             cout<<"*";
         }
 
         cout<<endl;
     }
 
-return 0;
+    return 0;
+
 }
