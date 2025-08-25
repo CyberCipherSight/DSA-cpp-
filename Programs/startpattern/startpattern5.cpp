@@ -10,13 +10,13 @@ int main(){
     for(int row =1; row<=n; row++){
 
         for(int i=n-row; i>0; i--){
-            cout<<" ";
+            cout<<"  ";
 
         }
         
         for(int j=1;j<=2*row-1; j++){
 
-            cout<<"*";
+            cout<<" *";
         }
 
         cout<<endl;
