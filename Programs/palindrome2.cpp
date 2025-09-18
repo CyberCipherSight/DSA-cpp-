@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     int n;
-    int digit;
+    int digit = 0;
     int rem;
 
     cin>>n;
